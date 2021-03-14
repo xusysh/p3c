@@ -33,12 +33,12 @@ import java.util.regex.Pattern;
  * @author guojingyu
  * @date 2021/03/13
  */
-public class ClassMustHaveAuthorRule extends AbstractAliCommentRule {
+public class AuthorMustBeGjy extends AbstractAliCommentRule {
 
     private static final Pattern AUTHOR_PATTERN = Pattern.compile(".*@[Aa]uthor[: ]*guojingyu[ ]*",
             Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
 
-    private static final String MESSAGE_KEY_PREFIX = "java.comment.ClassMustHaveAuthorRule.violation.msg";
+    private static final String MESSAGE_KEY_PREFIX = "java.comment.AuthorMustBeGjy.violation.msg";
 
     /**
      * Immediately return after visiting class/interface/enum/annotation,

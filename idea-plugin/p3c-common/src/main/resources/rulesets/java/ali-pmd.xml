@@ -4,6 +4,7 @@
          xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
 
+    <rule ref="rulesets/java/ali-ccb.xml"/>
     <rule ref="rulesets/java/ali-concurrent.xml"/>
     <rule ref="rulesets/java/ali-comment.xml"/>
     <rule ref="rulesets/java/ali-naming.xml">
@@ -23,5 +24,4 @@
     <rule ref="rulesets/java/ali-flowcontrol.xml">
         <exclude name="NeedBraceRule"/>
     </rule>
-    <rule ref="rulesets/java/ccb.xml"/>
 </ruleset>

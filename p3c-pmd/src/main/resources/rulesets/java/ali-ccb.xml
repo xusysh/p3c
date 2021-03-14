@@ -5,8 +5,8 @@
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>JsccbJavaSets</description>
 
-    <rule name="ClassMustHaveAuthorRule" message="java.comment.ClassMustHaveAuthorRule.rule.msg"
-          class="com.alibaba.p3c.pmd.lang.java.rule.ccb.ClassMustHaveAuthorRule">
+    <rule name="AuthorMustBeGjy" message="java.comment.AuthorMustBeGjy.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.ccb.AuthorMustBeGjy">
         <description>java.comment.ClassMustHaveAuthorRule.rule.desc</description>
         <priority>3</priority>
 

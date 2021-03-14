@@ -1,6 +1,5 @@
 buildscript {
     repositories {
-        mavenLocal()    //优先从本地获取p3c-pmd
         maven {
             url 'http://maven.aliyun.com/nexus/content/repositories/central/'
         }
@@ -13,6 +12,7 @@ buildscript {
         maven {
             url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
         }
+        mavenLocal()    //优先从本地获取p3c-pmd
         mavenCentral()
 
     }

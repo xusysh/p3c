@@ -555,4 +555,19 @@
         <![CDATA[浮点数之间的等值判断，基本数据类型不能用==来比较，包装数据类型不能用equals来判断。]]>
     </entry>
 
+    <entry key="java.comment.AuthorMustBeGjy.rule.msg">
+        <![CDATA[类的创建者必须为guojingyu。]]>
+    </entry>
+    <entry key="java.comment.AuthorMustBeGjy.rule.desc">
+        <![CDATA[
+说明：在设置模板时，注意IDEA的@author为${USER}，而eclipse的@author为${user}，大小写有区别，而日期的设置统一为yyyy/MM/dd的格式。
+        ]]>
+    </entry>
+    <entry key="java.comment.AuthorMustBeGjy.violation.msg.comment">
+        <![CDATA[【%s】缺少包含@author guojingyu的注释信息]]>
+    </entry>
+    <entry key="java.comment.AuthorMustBeGjy.violation.msg.author">
+        <![CDATA[【%s】注释缺少@author guojingyu信息]]>
+    </entry>
+
 </properties>
